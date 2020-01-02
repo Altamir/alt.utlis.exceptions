@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alt.Utils.Exception", "Alt.Utils.Exception\Alt.Utils.Exception.csproj", "{970768B0-6FBA-4FBC-8AD5-E2A7AAE23133}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alt.Utils.Exceptions", "Alt.Utils.Exception\Alt.Utils.Exceptions.csproj", "{970768B0-6FBA-4FBC-8AD5-E2A7AAE23133}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

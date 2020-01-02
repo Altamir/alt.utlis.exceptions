@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+    <Authors>Altamir Benkenstein</Authors>
+    <Company>Alt</Company>
+    <Description>extension methods utils</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://banner2.cleanpng.com/20180420/yqe/kisspng-computer-icons-exception-handling-symbol-caution-5ad9f749325f82.7046893715242340572063.jpg</PackageIconUrl>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+  
+   <Target Name="CopyPackage" AfterTargets="Pack">
+    <Copy SourceFiles="$(OutputPath)\$(PackageId).$(PackageVersion).nupkg" DestinationFolder="\\192.168.0.11\Desenvolvimento\Nuget-Rodosoft\Projetos\Checkin\" />
+    <Move SourceFiles="$(OutputPath)\$(PackageId).$(PackageVersion).nupkg" DestinationFolder="$(SolutionDir)packs\" />
+  </Target>
+
+</Project>
