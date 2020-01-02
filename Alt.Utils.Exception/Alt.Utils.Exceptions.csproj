@@ -7,7 +7,9 @@
     <Description>extension methods utils</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageIconUrl>https://banner2.cleanpng.com/20180420/yqe/kisspng-computer-icons-exception-handling-symbol-caution-5ad9f749325f82.7046893715242340572063.jpg</PackageIconUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
+    <RepositoryUrl>https://github.com/Altamir/alt.utlis.exceptions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Altamir/alt.utlis.exceptions</PackageProjectUrl>
   </PropertyGroup>
   
    <Target Name="CopyPackage" AfterTargets="Pack">
